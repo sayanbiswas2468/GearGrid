@@ -75,7 +75,7 @@ const CartItem = ({ product, title, metaImage, qty, addItemToCart }) => {
               height={24}
               className={classes.qtnBt}
             />
-          </div>  
+          </div>
         </div>
       </div>
 

@@ -56,7 +56,7 @@ export default async function Cart() {
     // console.error(error)
   }
 
-  return (  
+  return (
     <div className={classes.container}>
       <Gutter>
         <h3>Cart</h3>
