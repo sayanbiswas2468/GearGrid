@@ -4,9 +4,10 @@
   margin-bottom: var(--base);
   display: flex;
   flex-direction: column;
-  gap: calc(var(--base) / 2);
+  gap: 24px;
   align-items: flex-start;
-  width: 66.66%;
+  width: 100%;
+  margin-top: 30px;
 
   @include mid-break {
     width: 100%;
@@ -14,7 +15,8 @@
 }
 
 .submit {
-  margin-top: calc(var(--base) / 2);
+
+  width: 100%;
 }
 
 .message {
