@@ -6,6 +6,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 0,
     'no-console': 'off',
+    ['error', { endOfLine: 'auto' }]
     
   },
 }

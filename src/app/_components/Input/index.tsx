@@ -28,7 +28,7 @@ export const Input: React.FC<Props> = ({
     <div className={classes.inputWrap}>
       <label htmlFor="name" className={classes.label}>
         {label}
-        {required ? <span className={classes.asterisk}>&nbsp;*</span> : ''}
+        {required ? <span className={classes.asterisk}>bsp;*</span> : ''}
       </label>
       <input
         className={[classes.input, error && classes.error].filter(Boolean).join(' ')}
